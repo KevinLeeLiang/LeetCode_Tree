@@ -16,6 +16,9 @@
 #include <memory>
 #include "L94_inorderTraversal/L94_inorderTraversal.h"
 #include "L95_generateTrees/L95_generateTrees.h"
+#include "L96_numTree/L96_numTree.h"
+#include "L98_isValidBST/L98_isValidBST.h"
+using namespace std;
 class test_factory {
 private:
     void buildSolution(string title) {
@@ -24,6 +27,12 @@ private:
             solution_ = std::dynamic_pointer_cast<LeetcodeTree>(tmp);
         } else if (title == "L95") {
             std::shared_ptr<L95_generateTrees> tmp= std::make_shared<L95_generateTrees>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeTree>(tmp);
+        } else if (title == "L96") {
+            std::shared_ptr<L96_numTree> tmp= std::make_shared<L96_numTree>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeTree>(tmp);
+        } else if (title == "L98") {
+            std::shared_ptr<L98_isValidBST> tmp= std::make_shared<L98_isValidBST>();
             solution_ = std::dynamic_pointer_cast<LeetcodeTree>(tmp);
         }
     }
