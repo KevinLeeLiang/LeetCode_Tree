@@ -13,3 +13,7 @@ LeetCode树算法题的解题仓库
 [96. 不同的二叉搜索树](https://leetcode.cn/problems/unique-binary-search-trees/description/?envType=problem-list-v2&envId=tree) : [L96_numTrees](L96_numTrees)
 
 [98. 验证二叉搜索树](https://leetcode.cn/problems/validate-binary-search-tree/description/?envType=problem-list-v2&envId=tree) : [L98_isValidBST](L98_isValidBST)
+
+[99. 恢复二叉搜索树](https://leetcode.cn/problems/recover-binary-search-tree/description/?envType=problem-list-v2&envId=tree) : [L99_recoverTree](L99_recoverTree)
+
+[100. 相同的树](https://leetcode.cn/problems/same-tree/description/?envType=problem-list-v2&envId=tree) : [L100_isSameTree](L100_isSameTree)

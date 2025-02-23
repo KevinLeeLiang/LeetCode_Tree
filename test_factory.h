@@ -18,6 +18,8 @@
 #include "L95_generateTrees/L95_generateTrees.h"
 #include "L96_numTree/L96_numTree.h"
 #include "L98_isValidBST/L98_isValidBST.h"
+#include "L99_recoverTree/L99_recoverTree.h"
+#include "L100_isSameTree/L100_isSameTree.h"
 using namespace std;
 class test_factory {
 private:
@@ -34,6 +36,14 @@ private:
         } else if (title == "L98") {
             std::shared_ptr<L98_isValidBST> tmp= std::make_shared<L98_isValidBST>();
             solution_ = std::dynamic_pointer_cast<LeetcodeTree>(tmp);
+        } else if (title == "L99") {
+            std::shared_ptr<L99_recoverTree> tmp= std::make_shared<L99_recoverTree>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeTree>(tmp);
+        } else if (title == "L100") {
+            std::shared_ptr<L100_isSameTree> tmp= std::make_shared<L100_isSameTree>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeTree>(tmp);
+        } else {
+            cout << "no solution" << endl;
         }
     }
 public:
