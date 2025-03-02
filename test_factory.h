@@ -20,6 +20,8 @@
 #include "L98_isValidBST/L98_isValidBST.h"
 #include "L99_recoverTree/L99_recoverTree.h"
 #include "L100_isSameTree/L100_isSameTree.h"
+#include "L101_isSymmetric/L101_isSymmetric.h"
+#include "L102_levelOrder/L102_levelOrder.h"
 using namespace std;
 class test_factory {
 private:
@@ -41,6 +43,12 @@ private:
             solution_ = std::dynamic_pointer_cast<LeetcodeTree>(tmp);
         } else if (title == "L100") {
             std::shared_ptr<L100_isSameTree> tmp= std::make_shared<L100_isSameTree>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeTree>(tmp);
+        } else if (title == "L101") {
+            std::shared_ptr<L101_isSymmetric> tmp= std::make_shared<L101_isSymmetric>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeTree>(tmp);
+        } else if (title == "L102") {
+            std::shared_ptr<L102_levelOrder> tmp= std::make_shared<L102_levelOrder>();
             solution_ = std::dynamic_pointer_cast<LeetcodeTree>(tmp);
         } else {
             cout << "no solution" << endl;

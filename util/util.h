@@ -195,4 +195,17 @@ inline void print_list(ListNode *head) {
     cout << endl;
     cout << "__________" << endl;
 }
+
+template<typename T>
+void print_vector_vector(vector<vector<T>> &vecs) {
+    for (auto &vec : vecs) {
+        for (auto &item : vec) {
+            cout << item << " ";
+        }
+        cout << endl;
+    }
+    cout << endl;
+    cout << "__________" << endl;
+}
+
 #endif //TREE_UTIL_H
