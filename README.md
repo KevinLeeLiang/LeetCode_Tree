@@ -26,3 +26,6 @@ LeetCode树算法题的解题仓库
 
 [104. 二叉树的最大深度](https://leetcode.cn/problems/maximum-depth-of-binary-tree/description/?envType=problem-list-v2&envId=tree) : [L104_maxDepth](L104_maxDepth)
 
+[105. 从前序与中序遍历序列构造二叉树](https://leetcode.cn/problems/construct-binary-tree-from-preorder-and-inorder-traversal/description/?envType=problem-list-v2&envId=tree) : [L105_buildTree](L105_buildTree)
+
+[106. 从中序与后序遍历序列构造二叉树](https://leetcode.cn/problems/construct-binary-tree-from-inorder-and-postorder-traversal/description/?envType=problem-list-v2&envId=tree) : [L106_buildTree](L106_buildTree)

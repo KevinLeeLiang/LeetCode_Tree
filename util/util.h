@@ -143,16 +143,18 @@ inline string print_tree(TreeNode *root) {
             auto node = q.front();
             q.pop();
             if (node == nullptr) {
-                s += "0";
+                s += '#';
+                s += ' ';
             } else {
                 s += to_string(node->val);
+                s += ' ';
                 q.push(node->left);
                 q.push(node->right);
             }
         }
     }
     for (int i = s.size() - 1; i >= 0; --i) {
-        if (s[i] == '0') {
+        if (s[i] == '#' || s[i] == ' ') {
             s.pop_back();
         } else {
             break;
