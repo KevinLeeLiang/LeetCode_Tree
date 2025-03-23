@@ -26,6 +26,8 @@
 #include "L104_maxDepth/L104_maxDepth.h"
 #include "L105_buildTree/L105_buildTree.h"
 #include "L106_buildTree/L106_buildTree.h"
+#include "L107_levelOrderBottom/L107_levelOrderBottom.h"
+#include "L108_sortedArrayToBST/L108_sortedArrayToBST.h"
 
 using namespace std;
 class test_factory {
@@ -67,8 +69,12 @@ private:
         } else if (title == "L106") {
             std::shared_ptr<L106_buildTree> tmp= std::make_shared<L106_buildTree>();
             solution_ = std::dynamic_pointer_cast<LeetcodeTree>(tmp);
-        } else {
-            cout << "no solution" << endl;
+        } else if (title == "L107") {
+            std::shared_ptr<L107_levelOrderBottom> tmp= std::make_shared<L107_levelOrderBottom>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeTree>(tmp);
+        } else if (title == "L108") {
+            std::shared_ptr<L108_sortedArrayToBST> tmp= std::make_shared<L108_sortedArrayToBST>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeTree>(tmp);
         }
     }
 public:
