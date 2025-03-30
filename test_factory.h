@@ -28,6 +28,8 @@
 #include "L106_buildTree/L106_buildTree.h"
 #include "L107_levelOrderBottom/L107_levelOrderBottom.h"
 #include "L108_sortedArrayToBST/L108_sortedArrayToBST.h"
+#include "L109_sortedListToBST/L109_sortedListToBST.h"
+#include "L110_isBalanced/L110_isBalanced.h"
 
 using namespace std;
 class test_factory {
@@ -75,6 +77,14 @@ private:
         } else if (title == "L108") {
             std::shared_ptr<L108_sortedArrayToBST> tmp= std::make_shared<L108_sortedArrayToBST>();
             solution_ = std::dynamic_pointer_cast<LeetcodeTree>(tmp);
+        } else if (title == "L109") {
+            std::shared_ptr<L109_sortedListToBST> tmp= std::make_shared<L109_sortedListToBST>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeTree>(tmp);
+        } else if (title == "L110") {
+            std::shared_ptr<L110_isBalanced> tmp= std::make_shared<L110_isBalanced>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeTree>(tmp);
+        } else {
+            cout << "no solution" << endl;
         }
     }
 public:
