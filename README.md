@@ -37,3 +37,7 @@ LeetCode树算法题的解题仓库
 [109. 有序链表转换二叉搜索树](https://leetcode.cn/problems/convert-sorted-list-to-binary-search-tree/description/?envType=problem-list-v2&envId=tree) : [L109_sortedListToBST](L109_sortedListToBST)
 
 [110. 平衡二叉树](https://leetcode.cn/problems/balanced-binary-tree/description/?envType=problem-list-v2&envId=tree) : [L110_isBalanced](L110_isBalanced)
+
+[111. 二叉树的最小深度](https://leetcode.cn/problems/minimum-depth-of-binary-tree/description/?envType=problem-list-v2&envId=tree) : [L111_minDepth](L111_minDepth)
+
+[112. 路径总和](https://leetcode.cn/problems/path-sum/description/?envType=problem-list-v2&envId=tree) : [L112_hasPathSum](L112_hasPathSum)
