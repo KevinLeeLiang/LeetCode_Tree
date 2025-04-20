@@ -34,6 +34,8 @@
 #include "L112_hasPathSum/L112_hasPathSum.h"
 #include "L113_pathSum/L113_pathSum.h"
 #include "L114_flatten/L114_flatten.h"
+#include "L116_connect/L116_connect.h"
+#include "L117_connect/L117_connect.h"
 
 using namespace std;
 class test_factory {
@@ -98,6 +100,12 @@ private:
             solution_ = std::dynamic_pointer_cast<LeetcodeTree>(tmp);
         } else if (title == "L114") {
             std::shared_ptr<L114_flatten> tmp= std::make_shared<L114_flatten>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeTree>(tmp);
+        } else if (title == "L116") {
+            std::shared_ptr<L116_connect> tmp= std::make_shared<L116_connect>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeTree>(tmp);
+        } else if (title == "L117") {
+            std::shared_ptr<L117_connect> tmp= std::make_shared<L117_connect>();
             solution_ = std::dynamic_pointer_cast<LeetcodeTree>(tmp);
         }
     }
