@@ -36,6 +36,8 @@
 #include "L114_flatten/L114_flatten.h"
 #include "L116_connect/L116_connect.h"
 #include "L117_connect/L117_connect.h"
+#include "L124_maxPathSum/L124_maxPathSum.h"
+#include "L129_sumNumbers/L129_sumNumbers.h"
 
 using namespace std;
 class test_factory {
@@ -106,6 +108,12 @@ private:
             solution_ = std::dynamic_pointer_cast<LeetcodeTree>(tmp);
         } else if (title == "L117") {
             std::shared_ptr<L117_connect> tmp= std::make_shared<L117_connect>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeTree>(tmp);
+        } else if (title == "L124") {
+            std::shared_ptr<L124_maxPathSum> tmp = std::make_shared<L124_maxPathSum>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeTree>(tmp);
+        } else if (title == "L129") {
+            std::shared_ptr<L129_sumNumbers> tmp = std::make_shared<L129_sumNumbers>();
             solution_ = std::dynamic_pointer_cast<LeetcodeTree>(tmp);
         }
     }

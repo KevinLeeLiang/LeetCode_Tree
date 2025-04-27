@@ -42,3 +42,14 @@ LeetCode树算法题的解题仓库
 
 [112. 路径总和](https://leetcode.cn/problems/path-sum/description/?envType=problem-list-v2&envId=tree) : [L112_hasPathSum](L112_hasPathSum)
 
+[113. 路径总和 II](https://leetcode.cn/problems/path-sum-ii/description/?envType=problem-list-v2&envId=tree) : [L113_pathSum](L113_pathSum)
+
+[114. 二叉树展开为链表](https://leetcode.cn/problems/flatten-binary-tree-to-linked-list/description/?envType=problem-list-v2&envId=tree) : [L114_flatten](L114_flatten)
+
+[116. 填充每个节点的下一个右侧节点指针](https://leetcode.cn/problems/populating-next-right-pointers-in-each-node/description/?envType=problem-list-v2&envId=tree) : [L116_connect](L116_connect)
+
+[L117. 填充每个节点的下一个右侧节点指针 II](https://leetcode.cn/problems/populating-next-right-pointers-in-each-node-ii/description/?envType=problem-list-v2&envId=tree) : [L117_connect](L117_connect)
+
+[124. 二叉树中的最大路径和](https://leetcode.cn/problems/binary-tree-maximum-path-sum/description/?envType=problem-list-v2&envId=tree) : [L124_maxPathSum](L124_maxPathSum)
+
+[129. 求根节点到叶节点数字之和](https://leetcode.cn/problems/sum-root-to-leaf-numbers/description/?envType=problem-list-v2&envId=tree) : [L129_sumNumbers](L129_sumNumbers)
