@@ -48,8 +48,12 @@ LeetCode树算法题的解题仓库
 
 [116. 填充每个节点的下一个右侧节点指针](https://leetcode.cn/problems/populating-next-right-pointers-in-each-node/description/?envType=problem-list-v2&envId=tree) : [L116_connect](L116_connect)
 
-[L117. 填充每个节点的下一个右侧节点指针 II](https://leetcode.cn/problems/populating-next-right-pointers-in-each-node-ii/description/?envType=problem-list-v2&envId=tree) : [L117_connect](L117_connect)
+[117. 填充每个节点的下一个右侧节点指针 II](https://leetcode.cn/problems/populating-next-right-pointers-in-each-node-ii/description/?envType=problem-list-v2&envId=tree) : [L117_connect](L117_connect)
 
 [124. 二叉树中的最大路径和](https://leetcode.cn/problems/binary-tree-maximum-path-sum/description/?envType=problem-list-v2&envId=tree) : [L124_maxPathSum](L124_maxPathSum)
 
 [129. 求根节点到叶节点数字之和](https://leetcode.cn/problems/sum-root-to-leaf-numbers/description/?envType=problem-list-v2&envId=tree) : [L129_sumNumbers](L129_sumNumbers)
+
+[144. 二叉树的前序遍历](https://leetcode.cn/problems/binary-tree-preorder-traversal/description/?envType=problem-list-v2&envId=tree) : [L144_preorderTraversal](L144_preorderTraversal)
+
+[145. 二叉树的后序遍历](https://leetcode.cn/problems/binary-tree-postorder-traversal/description/?envType=problem-list-v2&envId=tree) : [L145_postorderTraversal](L145_postorderTraversal)

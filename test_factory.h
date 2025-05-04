@@ -38,6 +38,8 @@
 #include "L117_connect/L117_connect.h"
 #include "L124_maxPathSum/L124_maxPathSum.h"
 #include "L129_sumNumbers/L129_sumNumbers.h"
+#include "L144_preorderTraversal/L144_preorderTraversal.h"
+#include "L145_postorderTraversal/L145_postorderTraversal.h"
 
 using namespace std;
 class test_factory {
@@ -114,6 +116,12 @@ private:
             solution_ = std::dynamic_pointer_cast<LeetcodeTree>(tmp);
         } else if (title == "L129") {
             std::shared_ptr<L129_sumNumbers> tmp = std::make_shared<L129_sumNumbers>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeTree>(tmp);
+        } else if (title == "L144") {
+            std::shared_ptr<L144_preorderTraversal> tmp = std::make_shared<L144_preorderTraversal>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeTree>(tmp);
+        } else if (title == "L145") {
+            std::shared_ptr<L145_postorderTraversal> tmp = std::make_shared<L145_postorderTraversal>();
             solution_ = std::dynamic_pointer_cast<LeetcodeTree>(tmp);
         }
     }
