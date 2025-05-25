@@ -61,3 +61,7 @@ LeetCode树算法题的解题仓库
 [173. 二叉搜索树迭代器](https://leetcode.cn/problems/binary-search-tree-iterator/description/?envType=problem-list-v2&envId=tree) : [L173_BSTIterator](L173_BSTIterator)
 
 [199. 二叉树的右视图](https://leetcode.cn/problems/binary-tree-right-side-view/description/?envType=problem-list-v2&envId=tree) : [L199_rightSideView](L199_rightSideView)
+
+[230. 二叉搜索树中第K小的元素](https://leetcode.cn/problems/kth-smallest-element-in-a-bst/description/?envType=problem-list-v2&envId=tree) : [L230_kthSmallest](L230_kthSmallest)
+
+[235. 二叉搜索树的最近公共祖先](https://leetcode.cn/problems/lowest-common-ancestor-of-a-binary-search-tree/description/?envType=problem-list-v2&envId=tree) : [L235_lowestCommonAncestor](L235_lowestCommonAncestor)
