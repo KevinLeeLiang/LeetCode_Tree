@@ -46,6 +46,8 @@
 #include "L226_invertTree/L226_invertTree.h"
 #include "L230_kthSmallest/L230_kthSmallest.h"
 #include "L235_lowestCommonAncestor/L235_lowestCommonAncestor.h"
+#include "L236_lowestCommonAncestor/L236_lowestCommonAncestor.h"
+#include "L257_binaryTreePaths/L257_binaryTreePaths.h"
 
 using namespace std;
 class test_factory {
@@ -146,6 +148,12 @@ private:
             solution_ = std::dynamic_pointer_cast<LeetcodeTree>(tmp);
         } else if (title == "L235") {
             std::shared_ptr<L235_lowestCommonAncestor> tmp = std::make_shared<L235_lowestCommonAncestor>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeTree>(tmp);
+        } else if (title == "L236") {
+            std::shared_ptr<L236_lowestCommonAncestor> tmp = std::make_shared<L236_lowestCommonAncestor>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeTree>(tmp);
+        } else if (title == "L257") {
+            std::shared_ptr<L257_binaryTreePaths> tmp = std::make_shared<L257_binaryTreePaths>();
             solution_ = std::dynamic_pointer_cast<LeetcodeTree>(tmp);
         }
     }
