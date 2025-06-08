@@ -69,3 +69,7 @@ LeetCode树算法题的解题仓库
 [236. 二叉树的最近公共祖先](https://leetcode.cn/problems/lowest-common-ancestor-of-a-binary-tree/description/?envType=problem-list-v2&envId=tree) : [L236_lowestCommonAncestor](L236_lowestCommonAncestor)
 
 [257. 二叉树的所有路径](https://leetcode.cn/problems/binary-tree-paths/description/?envType=problem-list-v2&envId=tree) : [L257_binaryTreePaths](L257_binaryTreePaths)
+
+[297. 二叉树的序列化与反序列化](https://leetcode.cn/problems/serialize-and-deserialize-binary-tree/description/?envType=problem-list-v2&envId=tree) : [L297_serialize](L297_serialize)
+
+[331. 验证二叉树的前序序列化](https://leetcode.cn/problems/verify-preorder-serialization-of-a-binary-tree/description/?envType=problem-list-v2&envId=tree) : [L331_isValidSerialization](L331_isValidSerialization)
