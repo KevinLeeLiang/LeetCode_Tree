@@ -50,6 +50,8 @@
 #include "L257_binaryTreePaths/L257_binaryTreePaths.h"
 #include "L297_serializeAndDeserialize/L297_serializeAndDeserialize.h"
 #include "L331_isValidSerialization/L331_isValidSerialize.h"
+#include "L337_rob/L337_rob.h"
+#include "L404_sumOfLeftLeaves/L404_sumOfLeftLeaves.h"
 
 using namespace std;
 class test_factory {
@@ -162,6 +164,12 @@ private:
             solution_ = std::dynamic_pointer_cast<LeetcodeTree>(tmp);
         } else if (title == "L331") {
             std::shared_ptr<L331_isValidSerialize> tmp = std::make_shared<L331_isValidSerialize>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeTree>(tmp);
+        } else if (title == "L337") {
+            std::shared_ptr<L337_rob> tmp = std::make_shared<L337_rob>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeTree>(tmp);
+        } else if (title == "L404") {
+            std::shared_ptr<L404_sumOfLeftLeaves> tmp = std::make_shared<L404_sumOfLeftLeaves>();
             solution_ = std::dynamic_pointer_cast<LeetcodeTree>(tmp);
         }
     }
