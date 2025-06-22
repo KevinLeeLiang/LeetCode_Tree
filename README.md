@@ -77,3 +77,7 @@ LeetCode树算法题的解题仓库
 [337. 打家劫舍 III](https://leetcode.cn/problems/house-robber-iii/description/?envType=problem-list-v2&envId=tree) : [L337_rob](L337_rob)
 
 [404. 左叶子之和](https://leetcode.cn/problems/sum-of-left-leaves/description/?envType=problem-list-v2&envId=tree) : [L404_sumOfLeftLeaves](L404_sumOfLeftLeaves)
+
+[427. 建立四叉树](https://leetcode.cn/problems/construct-quad-tree/description/?envType=problem-list-v2&envId=tree) : [L427_constructQuadTree](L427_constructQuadTree)
+
+[429. N 叉树的层序遍历](https://leetcode.cn/problems/n-ary-tree-level-order-traversal/description/?envType=problem-list-v2&envId=tree) : [L429_nLevelOrderTraversal](L429_nLevelOrderTraversal)
