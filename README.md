@@ -81,3 +81,7 @@ LeetCode树算法题的解题仓库
 [427. 建立四叉树](https://leetcode.cn/problems/construct-quad-tree/description/?envType=problem-list-v2&envId=tree) : [L427_constructQuadTree](L427_constructQuadTree)
 
 [429. N 叉树的层序遍历](https://leetcode.cn/problems/n-ary-tree-level-order-traversal/description/?envType=problem-list-v2&envId=tree) : [L429_nLevelOrderTraversal](L429_nLevelOrderTraversal)
+
+[437. 路径总和 III](https://leetcode.cn/problems/path-sum-iii/description/?envType=problem-list-v2&envId=tree) : [L437_pathSum](L437_pathSum)
+
+[449. 序列化和反序列化二叉搜索树](https://leetcode.cn/problems/serialize-and-deserialize-bst/description/?envType=problem-list-v2&envId=tree) : [L449_serializeAndDeserialize](L449_serializeAndDeserialize)

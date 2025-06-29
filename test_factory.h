@@ -54,6 +54,8 @@
 #include "L404_sumOfLeftLeaves/L404_sumOfLeftLeaves.h"
 #include "L427_construct/L427_construct.h"
 #include "L429_levelOrder/L429_levelOrder.h"
+#include "L437_pathSum/L437_pathSum.h"
+#include "L449_serializeAndDeserialize/L449_serializeAndDeserialize.h"
 
 using namespace std;
 class test_factory {
@@ -178,6 +180,12 @@ private:
             solution_ = std::dynamic_pointer_cast<LeetcodeTree>(tmp);
         } else if (title == "L429") {
             std::shared_ptr<L429_levelOrder> tmp = std::make_shared<L429_levelOrder>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeTree>(tmp);
+        } else if (title == "L437") {
+            std::shared_ptr<L437_pathSum> tmp = std::make_shared<L437_pathSum>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeTree>(tmp);
+        } else if (title == "L449") {
+            std::shared_ptr<L449_serializeAndDeserialize> tmp = std::make_shared<L449_serializeAndDeserialize>();
             solution_ = std::dynamic_pointer_cast<LeetcodeTree>(tmp);
         }
     }
