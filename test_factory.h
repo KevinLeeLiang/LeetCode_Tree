@@ -56,6 +56,8 @@
 #include "L429_levelOrder/L429_levelOrder.h"
 #include "L437_pathSum/L437_pathSum.h"
 #include "L449_serializeAndDeserialize/L449_serializeAndDeserialize.h"
+#include "L450_deleteNode/L450_deleteNode.h"
+#include "L501_findMode/L501_findMode.h"
 
 using namespace std;
 class test_factory {
@@ -186,6 +188,12 @@ private:
             solution_ = std::dynamic_pointer_cast<LeetcodeTree>(tmp);
         } else if (title == "L449") {
             std::shared_ptr<L449_serializeAndDeserialize> tmp = std::make_shared<L449_serializeAndDeserialize>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeTree>(tmp);
+        } else if (title == "L450") {
+            std::shared_ptr<L450_deleteNode> tmp = std::make_shared<L450_deleteNode>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeTree>(tmp);
+        } else if (title == "L501") {
+            std::shared_ptr<L501_findMode> tmp = std::make_shared<L501_findMode>();
             solution_ = std::dynamic_pointer_cast<LeetcodeTree>(tmp);
         }
     }

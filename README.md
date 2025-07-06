@@ -85,3 +85,7 @@ LeetCode树算法题的解题仓库
 [437. 路径总和 III](https://leetcode.cn/problems/path-sum-iii/description/?envType=problem-list-v2&envId=tree) : [L437_pathSum](L437_pathSum)
 
 [449. 序列化和反序列化二叉搜索树](https://leetcode.cn/problems/serialize-and-deserialize-bst/description/?envType=problem-list-v2&envId=tree) : [L449_serializeAndDeserialize](L449_serializeAndDeserialize)
+
+[450. 删除二叉搜索树中的节点](https://leetcode.cn/problems/delete-node-in-a-bst/description/?envType=problem-list-v2&envId=tree) : [L450_deleteNode](L450_deleteNode)
+
+[501. 二叉搜索树中的众数](https://leetcode.cn/problems/find-mode-in-binary-search-tree/description/?envType=problem-list-v2&envId=tree) : [L501_findMode](L501_findMode)
