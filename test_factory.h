@@ -58,6 +58,8 @@
 #include "L449_serializeAndDeserialize/L449_serializeAndDeserialize.h"
 #include "L450_deleteNode/L450_deleteNode.h"
 #include "L501_findMode/L501_findMode.h"
+#include "L508_findFrequentTreeSum/L508_findFrequentTreeSum.h"
+#include "L513_findBottomLeftValue/L513_findBottomLeftValue.h"
 
 using namespace std;
 class test_factory {
@@ -194,6 +196,12 @@ private:
             solution_ = std::dynamic_pointer_cast<LeetcodeTree>(tmp);
         } else if (title == "L501") {
             std::shared_ptr<L501_findMode> tmp = std::make_shared<L501_findMode>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeTree>(tmp);
+        } else if (title == "L508") {
+            std::shared_ptr<L508_findFrequentTreeSum> tmp = std::make_shared<L508_findFrequentTreeSum>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeTree>(tmp);
+        } else if (title == "L513") {
+            std::shared_ptr<L513_findBottomLeftValue> tmp = std::make_shared<L513_findBottomLeftValue>();
             solution_ = std::dynamic_pointer_cast<LeetcodeTree>(tmp);
         }
     }
