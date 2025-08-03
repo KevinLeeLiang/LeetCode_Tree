@@ -60,6 +60,7 @@
 #include "L501_findMode/L501_findMode.h"
 #include "L508_findFrequentTreeSum/L508_findFrequentTreeSum.h"
 #include "L513_findBottomLeftValue/L513_findBottomLeftValue.h"
+#include "L515_largestValues/L515_largestValue.h"
 
 using namespace std;
 class test_factory {
@@ -202,6 +203,9 @@ private:
             solution_ = std::dynamic_pointer_cast<LeetcodeTree>(tmp);
         } else if (title == "L513") {
             std::shared_ptr<L513_findBottomLeftValue> tmp = std::make_shared<L513_findBottomLeftValue>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeTree>(tmp);
+        } else if (title == "L515") {
+            std::shared_ptr<L515_largestValue> tmp = std::make_shared<L515_largestValue>();
             solution_ = std::dynamic_pointer_cast<LeetcodeTree>(tmp);
         }
     }
